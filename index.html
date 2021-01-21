@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Food / Resturant Design </title>
+    <!--Fonts Done
+    <link rel="stylesheet" href="fonts/font-awesome.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+    <!--Bootstrap 5 Done
+    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--Google font Done
+   <link rel="stylesheet" href="fonts/google-fonts.css">-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Jquery Done
+    <script src="js/jquery.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+<!--PopUp Start-->
+<diV id="popUpMain" class="mainCard" style="display: none;">
+        
+    <div class="card" id="popUp" >
+        <div class="card-img-overlay">
+       <button type="button" style="font-size:25px;float:right" id="closebtn" data-bs-dismiss="mainCard" class=" btn-close float-right"  aria-label="Close"></button>
+   
+        <h5 id="bannerOpen" class="card-title text-white">We are Now open!</h5>
+        <p id="bannertext" class="card-text text-light">Sunday-Thursday<br> 7:30AM - 8:00PM</p>
+        <p id="bannertext" class="card-text text-light">Friday-Saturday<br> 7:30AM - 9:00PM</p>
+        </div>
+    </div>
+</diV>
+<!--PopUp End-->
+
+
+<!-- header section starts -->
+<header id="header">
+<nav>
+    <ul id="slowDown1" style="display:none;">
+        <li><a href="#home">home</a></li>
+        <li><a href="#special">special</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#dish">dishes</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+</nav>
+ 
+<div class="fas fa-hamburger"></div>
+
+<a href="#" class="logo"><img src="images/brand-icon.png" alt="nav-icon"   ></a>
+
+
+</header>
+
+<!-- header section ends -->
+
+
+
+<!-- home section starts  -->
+
+<section id="home" class="container-fluid">
+
+<div class="row min-vh-100   align-items-center">
+  
+<div class="col-md-8  ml-md-5 text-md-left  align-items-start content">
+    <h1>Food that you can't resist</h1>
+    <h2>Enjoy the marvelous taste</h2>
+    <p>Restaurants with best in class safety standards.</p>
+    <a href="#special"><button>Order Now</button></a>
+</div>
+ 
+<div class="video-container">
+   <video src="images/vid2.mp4"  autoplay loop  class="vid vid1"  ></video>
+    <video src="images/vid1.mp4"  autoplay loop  class="vid vid2"  ></video>
+    <video src="images/vid3.mp4"  autoplay loop  class="vid vid3"  ></video>
+ 
+</div>
+
+
+ 
+
+<div class="controls d-flex justify-content-center">
+    <div class="dots dot1"></div>
+    <div class="dots dot2"></div>
+    <div class="dots dot3"></div>
+</div>
+
+</div>
+
+</section>
+
+<!-- home section ends  -->
+
+
+<!-- special card section starts  -->
+
+<section id="special" class="container-fluid">
+
+<div class="heading text-center">
+<h1>Our <span>Restaurants</span></h1>
+<h2>.....</h2>
+</div>
+
+<center>
+<div class="card-container d-flex   justify-content-center"  >
+<div class="row"  >
+ 
+<div class="col-md-3">
+ <!--Card Start-->
+ <div class="card"  >
+    <img src="images/Surya Dhaba.jpg" class="card-img-top" alt="7th Heaven Hotel">
+   
+      
+   <div class="list-group card-body" >
+        <li class="list-group-item promoCode">
+            <h3 class="card-title float-start ">Surya Dhabha<br> <h5><span class="text-muted float-start">North Indian, Snacks, Chinese</span></h5></h3> 
+        </li>
+        <li class="list-group-item mt-1 mb-3 promoCode"> 
+            <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> &#9734; 4.0 </span> 
+        </li>
+        
+        <li class="list-group-item p-3 promoCode"  >
+            <span class="fa-stack fa-lg float-start">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+            </span> 
+            <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+       </li>
+  </div>
+  
+
+</div>
+<!--Card End-->
+</div>
+<div class="col-md-3">
+    <!--Card Start-->
+       <div class="card"  >
+           <img src="images/7th Heaven [khalifabag].jpg" class="card-img-top" alt="7th Heaven Hotel">
+          
+             
+          <div class="list-group card-body" >
+               <li class="list-group-item promoCode">
+                   <h3 class="card-title float-start ">5th Heaven Hotel<br> <h5><span class="text-muted float-start">Italian, Continental, Chinese, Bakery</span></h5></h3> 
+               </li>
+               <li class="list-group-item mt-1 mb-3 promoCode"> 
+                   <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> &#9734; 4.2 </span> 
+               </li>
+               
+               <li class="list-group-item p-3 promoCode"  >
+                   <span class="fa-stack fa-lg float-start">
+                       <i class="fa fa-certificate fa-stack-2x"></i>
+                       <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+                   </span> 
+                   <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">20% off | USE Promo Code</div>  </a>  
+              </li>
+         </div>
+   
+       </div>
+   <!--Card End-->
+   </div>
+<div class="col-md-3">
+ <!--Card Start-->
+ <div class="card"  >
+    <img src="images/Dosa Plaza.jpg" class="card-img-top" alt="7th Heaven Hotel">
+   
+      
+   <div class="list-group card-body" >
+        <li class="list-group-item promoCode">
+            <h3 class="card-title float-start ">Dosa Plaza &nbsp; </br> <h5><span class="ml-3 text-muted float-start">South Indian (Dosa, Idli, Uttapam)</span></h5></h3> 
+        </li>
+        <li class="list-group-item mt-1 mb-3 promoCode"> 
+            <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> &#9734; 4.4 </span> 
+        </li>
+        
+        <li class="list-group-item p-3 promoCode"  >
+            <span class="fa-stack fa-lg float-start">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+            </span> 
+            <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+       </li>
+  </div>
+
+</div>
+<!--Card End-->
+</div>
+
+<div class="col-md-3">
+ <!--Card Start-->
+ <div class="card"  >
+    <img src="images/Bhukkhad.jpg" class="card-img-top" alt="7th Heaven Hotel">
+   
+      
+   <div class="list-group card-body" >
+        <li class="list-group-item promoCode">
+            <h3 class="card-title float-start ">Bhukkhad<br> <h5><span class="text-muted float-start">Biryani, Chinese, North Indian</span></h5></h3> 
+        </li>
+        <li class="list-group-item mt-1 mb-3 promoCode"> 
+            <span class="badge p-2 float-start" style="background-color: #48c479;font-size:13px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> &#9734; 4.5 </span> 
+        </li>
+        
+        <li class="list-group-item p-3 promoCode"  >
+            <span class="fa-stack fa-lg float-start">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fa fa-tag fa-stack-1x fa-inverse"></i>
+            </span> 
+            <a href="#" class=" btn stretched-link">  <div class="card-text" style="font-size:14px;">40% off | USE Promo Code</div>  </a>  
+       </li>
+  </div>
+
+</div>
+<!--Card End-->
+</div>
+</div>
+    
+
+   
+</div>
+</center>
+</section>
+
+<!-- special card section ends  -->
+
+<!-- about section starts  -->
+
+<section id="about" class="container">
+    <div class="heading text-center">
+      <h1><span>About</span> Us</h1>
+    </div>
+
+    <div class="row min-vh-50">
+
+        <div class="col-md-6 text-justify text-md-left align-self-center content">
+            <p>Craving some delicious Deshi food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in mind, Our Restaurant is ready to prepare it for you.
+
+             Since 2001, In addition to wholesome and flavorful dining options for lunch and dinner. 
+             From burgers to salads, seafood to pastas, you’ll find all kinds of hearty meals prepared fresh at Our Restaurant. Our diner also has a full bakery with delicious baked goods and other treats, including our famous cheesecake. Sounds delicious, right?
+                
+            We’re here to serve you the best food around, whenever you’re looking for a great Indian restaurant in Your city.</p>
+            <a href="#"><button class="p-2">Explore More</button></a>
+        </div>
+
+        <div class="col-md-6 image">
+            <img src="images/pic sef.png" alt="">
+        </div>
+
+    </div>
+
+</section>
+<!-- about section ends  -->
+
+
+<!-- dish section starts  -->
+
+<section id="dish" class="container">
+
+    <div class="heading text-center">
+        <h1>our <span>dishes</span></h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Momo.jpg" alt="">
+            <div class="info">
+                <h3>MOMO</h3>
+                <p>Maggi, Veg/Non Veg Momo, Noodles, Pasta</p>
+                <a href="#"><button>view</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/cake.jpg" alt="">
+            <div class="info">
+                <h3>Cake</h3>
+                <p>Dark Knight, Coffee Pasty  </p>
+                <a href="#"><button>view</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Burger.jpg" alt="">
+            <div class="info">
+                <h3>Burger</h3>
+                <p>Chilly Burger, Grilled Sandwich, Chicken Popcorn, Paneer Pops</p>
+                <a href="#"><button>view</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/veg-thali1.jpg" alt="">
+            <div class="info">
+                <h3>Thali</h3>
+                <p>Veg Thali, Daali, Dry Bhaaji,  Salad, Rasgulla Small</p>
+                <a href="#"><button>view</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/fruit-juice.jpg" alt="">
+            <div class="info">
+                <h3>Juice</h3>
+                <p>Lime Juice, Orange Juice, Carrot Juice</p>
+                <a href="#"><button>view</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Roll.jpg" alt="">
+            <div class="info">
+                <h3>Roll</h3>
+                <p>Egg Roll,Paneer Roll, Chicken Roll
+                    Schezwan Roll, Manchurian Roll</p>
+                <a href="#"><button>view</button></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- dish section ends  -->
+
+<!-- contact section starts  -->
+
+<section id="contact" class="container-fluid pb-4">
+
+    <div class="heading text-center">
+        <h1><span>contact</span> us</h1>
+    </div>
+
+    <div class="row justify-content-center">
+
+        <form action="" class="col-md-7">
+
+            <div class="inputBox">
+                <input type="text" required>
+                <h3>full name</h3>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" required>
+                <h3>e-mail</h3>
+            </div>
+
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <h3>message</h3>
+            </div>
+
+            <input type="submit" value="send">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends  -->
+
+<!-- footer section starts  -->
+
+<section id="footer" class="container-fluid">
+
+<div class="row align-items-center">
+
+<div class="col-md-4 brand"> 
+<a href="#" class="logo">
+    <img src="images/brand-icon.png" alt="nav-icon" >
+</a>
+
+<div class="icons">
+    <a href="#" class="fab fa-facebook-square"></a>
+    <a href="#" class="fab fa-twitter-square"></a>
+    <a href="#" class="fab fa-instagram-square"></a>
+    <a href="#" class="fab fa-pinterest-square"></a>
+</div>
+
+</div>
+
+<div class="col-md-4 footer-links "><br><br><br>
+<h3 class="text-center">Navigation :</h3>
+   
+  <div class="list-group text-justify" id="footerList">
+    <a href="#home" class="list-group-item list-group-item-action list-group-item-dark">Home</a>
+    <a href="#special" class="list-group-item list-group-item-action list-group-item-dark">Special</a>
+    <a href="#about" class="list-group-item list-group-item-action list-group-item-dark ">About</a>
+    <a href="#dish" class="list-group-item list-group-item-action list-group-item-dark">Dish</a>
+    <a href="#contact" class="list-group-item list-group-item-action list-group-item-dark" >Contact</a>
+  </div>  
+ 
+</div>
+
+<div class="col-md-4 text-center text-md-left letter">
+<h2>Newsletter</h2>
+<input type="text"><br>
+<input type="submit" value="subscribe">
+</div>
+
+</div>
+
+<h1>&copy; copyright @ 2020 by <span>sannykumar085@gmail.com</span></h1>
+
+</section>
+
+<!-- footer section ends  -->
+ 
+
+
+<!-- script part starts  -->
+
+<script>
+//store src
+  
+$(document).ready(function(){
+ 
+    $("#slowDown1").fadeIn(2000);
+   
+
+    $('.fa-hamburger').click(function(){
+        $(this).toggleClass('fa-times');
+        $('nav').toggleClass('nav-toggle');
+    });
+
+    $('nav ul li a').click(function(){
+        $('.fa-hamburger').removeClass('fa-times');
+        $('nav').removeClass('nav-toggle');
+    });
+
+    $('.dot1').click(function(){
+        $('.vid1').css('display','block');
+        $('.vid2').css('display','none');
+        $('.vid3').css('display','none');
+    });
+
+    $('.dot2').click(function(){
+        $('.vid2').css('display','block');
+        $('.vid1').css('display','none');
+        $('.vid3').css('display','none');
+    });
+
+    $('.dot3').click(function(){
+        $('.vid3').css('display','block');
+        $('.vid1').css('display','none');
+        $('.vid2').css('display','none');
+    });
+
+    $(window).on('scroll load',function(){
+        if($(window).scrollTop() > 30){
+            $('#header').addClass('header-active');
+        }else{
+            $('#header').removeClass('header-active');
+        }
+    });
+
+
+    setTimeout(function(){
+       $("#popUpMain").css("display","block");},5000);
+   
+       $("#closebtn").click(function(){
+        $("#popUpMain").css("display","none");
+   
+       });
+      
+
+});
+
+</script>
+
+</body> 
+</html>
