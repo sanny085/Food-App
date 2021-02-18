@@ -49,6 +49,7 @@ p#bannertext {
   font-weight: bold;
   text-transform: capitalize;
 }
+
 #header {
   width: 100%;
   position: fixed;
@@ -306,7 +307,6 @@ p#bannertext {
   background: #333;
   color: #fff;
 }
-
 #special .card-container .card button::before {
   content: "";
   position: absolute;
